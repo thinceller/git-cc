@@ -1,0 +1,15 @@
+[package]
+name = "git-cc"
+version = "0.1.0"
+edition = "2021"
+authors = ["thinceller@gmail.com"]
+license = "MIT"
+description = "A command line tool to create commit messages following the Conventional Commits specs"
+homepage = "https://github.com/thinceller/git-cc"
+repository = "https://github.com/thinceller/git-cc"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dialoguer = { version = "0.10.0", features = ["fuzzy-select"] }
